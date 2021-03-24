@@ -1,0 +1,25 @@
+assets:
+- method: binarc
+  name: ard/bb03.ard
+  source:
+  - method: spawnpoint
+    name: b_40
+    source:
+    - name: b_40.spawn.yaml
+    type: AreaDataSpawn
+  - method: areadatascript
+    name: evt
+    source:
+    - name: postfight-program
+    type: AreaDataScript
+- method: binarc
+  name: ard/tt01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: newgame-program
+    type: AreaDataScript
+description: An example showing how to use the ARD Spawnpoint mod method, using a interesting (but unbeatable) boss fight on newgame.
+originalAuthor: Thundrio
+title: SpawnPoint Mod Method Example

@@ -1,0 +1,4 @@
+Program 0x45
+Bgm 114 114
+AreaSettings 16 -1
+	SetJump Type 5 World ES Area 0 Entrance 0 LocalSet 0 FadeType 16385
